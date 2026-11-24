@@ -29,7 +29,7 @@ htmlcov/
 *.log
 *.tmp
 *.bak
-*.csv
+/data/*.csv
 
 # Editor and operating-system files
 .vscode/
