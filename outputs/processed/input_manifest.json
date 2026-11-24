@@ -1,0 +1,58 @@
+{
+  "inputs": {
+    "ball_by_ball_updated.csv": {
+      "rows": 200999,
+      "columns": 33,
+      "bytes": 41071837,
+      "sha256": "01e2b4379edfbab6a6e456d304cb3c70f554cb312ef93d9588f3f32a82cb396e"
+    },
+    "matches.csv": {
+      "rows": 883,
+      "columns": 22,
+      "bytes": 123864,
+      "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef"
+    },
+    "playing_eleven.csv": {
+      "rows": 28381,
+      "columns": 9,
+      "bytes": 966287,
+      "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27"
+    },
+    "competition_team_player_mapping.csv": {
+      "rows": 6413,
+      "columns": 6,
+      "bytes": 462969,
+      "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12"
+    },
+    "teams.csv": {
+      "rows": 353,
+      "columns": 3,
+      "bytes": 6922,
+      "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+    },
+    "competitions.csv": {
+      "rows": 141,
+      "columns": 4,
+      "bytes": 7624,
+      "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+    }
+  },
+  "read_only": true,
+  "source_hashes_after_run": {
+    "ball_by_ball_updated.csv": "01e2b4379edfbab6a6e456d304cb3c70f554cb312ef93d9588f3f32a82cb396e",
+    "matches.csv": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+    "playing_eleven.csv": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+    "competition_team_player_mapping.csv": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+    "teams.csv": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d",
+    "competitions.csv": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b"
+  },
+  "source_hashes_unchanged": true,
+  "execution": {
+    "started_utc": "2026-11-16T16:11:26.532297+00:00",
+    "finished_utc": "2026-11-16T16:11:41.356940+00:00",
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "integrated_delivery_rows": 200999,
+    "primary_eligible_matches": 354
+  }
+}

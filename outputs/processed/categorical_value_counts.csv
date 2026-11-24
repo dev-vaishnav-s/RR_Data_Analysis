@@ -1,0 +1,304 @@
+﻿table,column,value,count
+ball_by_ball,batting_type,RHB,131006
+ball_by_ball,batting_type,LHB,69993
+ball_by_ball,bowling_type,Right-arm Leg-Break,28027
+ball_by_ball,bowling_type,Right-arm medium-fast,27014
+ball_by_ball,bowling_type,Right-arm Fast,26637
+ball_by_ball,bowling_type,Right-arm medium,23919
+ball_by_ball,bowling_type,Slow left-arm orthodox,23582
+ball_by_ball,bowling_type,Right-arm offbreak,20948
+ball_by_ball,bowling_type,Right-arm fast-medium,15380
+ball_by_ball,bowling_type,Left-arm medium-fast,12492
+ball_by_ball,bowling_type,Left-arm fast-medium,7780
+ball_by_ball,bowling_type,Left-arm medium,6082
+ball_by_ball,bowling_type,Left-arm Chinaman,4685
+ball_by_ball,bowling_type,Left-arm Fast,4453
+ball_by_ball,is_four,False,177716
+ball_by_ball,is_four,True,23283
+ball_by_ball,is_six,False,188188
+ball_by_ball,is_six,True,12811
+ball_by_ball,is_wicket,False,190118
+ball_by_ball,is_wicket,True,10881
+ball_by_ball,dismissal_type,<NULL>,190118
+ball_by_ball,dismissal_type,Caught,7557
+ball_by_ball,dismissal_type,Bowled,1775
+ball_by_ball,dismissal_type,LBW,709
+ball_by_ball,dismissal_type,RunOut,600
+ball_by_ball,dismissal_type,Stump,214
+ball_by_ball,dismissal_type,Hit Wicket,17
+ball_by_ball,dismissal_type,Retire Out,6
+ball_by_ball,dismissal_type,Obstracting the field,2
+ball_by_ball,dismissal_type,Obstructing the field,1
+ball_by_ball,extras_type,<NULL>,189167
+ball_by_ball,extras_type,wide,7714
+ball_by_ball,extras_type,legbyes,2748
+ball_by_ball,extras_type,Overstep,576
+ball_by_ball,extras_type,byes,529
+ball_by_ball,extras_type,other,264
+ball_by_ball,extras_type,Penalty,1
+ball_by_ball,pace_or_spin,Pace,123886
+ball_by_ball,pace_or_spin,Spin,77113
+ball_by_ball,stroke,Pull shot,24645
+ball_by_ball,stroke,Cover Drive,20779
+ball_by_ball,stroke,Worked,20757
+ball_by_ball,stroke,Flick,14836
+ball_by_ball,stroke,Off Drive,14672
+ball_by_ball,stroke,Square Cut,13776
+ball_by_ball,stroke,On drive,11771
+ball_by_ball,stroke,Square drive,11266
+ball_by_ball,stroke,Frontfoot defensive,10721
+ball_by_ball,stroke,Push,9610
+ball_by_ball,stroke,Backfoot defensive,7562
+ball_by_ball,stroke,<NULL>,6158
+ball_by_ball,stroke,Slog,5255
+ball_by_ball,stroke,Steer,4842
+ball_by_ball,stroke,Straight Drive,4789
+ball_by_ball,stroke,Slog Sweep,3812
+ball_by_ball,stroke,Sweep Shot,3667
+ball_by_ball,stroke,Leg Glance,3130
+ball_by_ball,stroke,Paddle Scoop,1818
+ball_by_ball,stroke,Reverse Sweep,1767
+ball_by_ball,stroke,UpperCut,1692
+ball_by_ball,stroke,PickUp,845
+ball_by_ball,stroke,Inside out,676
+ball_by_ball,stroke,Late Cut,621
+ball_by_ball,stroke,Hook Shot,597
+ball_by_ball,stroke,Paddle Sweep,511
+ball_by_ball,stroke,Reverse Paddle Scoop,214
+ball_by_ball,stroke,Switch,151
+ball_by_ball,stroke,Defense,43
+ball_by_ball,stroke,Glance,13
+ball_by_ball,stroke,Intentional Padding,3
+ball_by_ball,delivery_style,Seamed In,22058
+ball_by_ball,delivery_style,Orthodox,19239
+ball_by_ball,delivery_style,Leg Break,15449
+ball_by_ball,delivery_style,Off Cutter,15143
+ball_by_ball,delivery_style,Off Break,14869
+ball_by_ball,delivery_style,Seamed Out,14443
+ball_by_ball,delivery_style,Inswing,12481
+ball_by_ball,delivery_style,Out Swing,12176
+ball_by_ball,delivery_style,Googly,11943
+ball_by_ball,delivery_style,Straight,9753
+ball_by_ball,delivery_style,Full Toss,8870
+ball_by_ball,delivery_style,Bouncer,5620
+ball_by_ball,delivery_style,Carrom,4664
+ball_by_ball,delivery_style,Arm ball,4618
+ball_by_ball,delivery_style,Yorker,4212
+ball_by_ball,delivery_style,Slow Bouncer,3426
+ball_by_ball,delivery_style,Reverse Swing In,2915
+ball_by_ball,delivery_style,Angled Away,2615
+ball_by_ball,delivery_style,Chinaman,2507
+ball_by_ball,delivery_style,Angled In,2435
+ball_by_ball,delivery_style,Leg Cut,2288
+ball_by_ball,delivery_style,Back of Hand,1809
+ball_by_ball,delivery_style,Reverse Swing Out,1790
+ball_by_ball,delivery_style,Wide Yorker,1448
+ball_by_ball,delivery_style,Knuckle,1239
+ball_by_ball,delivery_style,Flipper,786
+ball_by_ball,delivery_style,Slow Ball,634
+ball_by_ball,delivery_style,Slider,441
+ball_by_ball,delivery_style,<NULL>,391
+ball_by_ball,delivery_style,Quicker Ball,336
+ball_by_ball,delivery_style,Flick,226
+ball_by_ball,delivery_style,Beamer,129
+ball_by_ball,delivery_style,Top Spin,30
+ball_by_ball,delivery_style,Doosra,9
+ball_by_ball,delivery_style,Reverse Swing,7
+ball_by_ball,over_or_around,Over,154670
+ball_by_ball,over_or_around,Around,45922
+ball_by_ball,over_or_around,<NULL>,407
+ball_by_ball,on_or_off,Off-side,104875
+ball_by_ball,on_or_off,On-side,96124
+matches,stage,League,620
+matches,stage,Others,226
+matches,stage,Final,12
+matches,stage,Qualifier,10
+matches,stage,Super 4,6
+matches,stage,Eliminator,5
+matches,stage,Semi Final,4
+matches,venue_country,India,425
+matches,venue_country,United Arab Emirates,69
+matches,venue_country,New Zealand,52
+matches,venue_country,United Kingdom,49
+matches,venue_country,West Indies,44
+matches,venue_country,Zimbabwe,38
+matches,venue_country,Pakistan,36
+matches,venue_country,Bangladesh,34
+matches,venue_country,Sri Lanka,26
+matches,venue_country,Australia,24
+matches,venue_country,Oman,21
+matches,venue_country,South Africa,18
+matches,venue_country,Qatar,15
+matches,venue_country,Netherlands,14
+matches,venue_country,Ireland,10
+matches,venue_country,United States,7
+matches,venue_country,Japan,1
+matches,home_team,India,62
+matches,home_team,West Indies,51
+matches,home_team,New Zealand,47
+matches,home_team,Bangladesh,42
+matches,home_team,Pakistan,42
+matches,home_team,Gujarat Titans,41
+matches,home_team,Royal Challengers Bengaluru,38
+matches,home_team,Zimbabwe,38
+matches,home_team,Punjab Kings,37
+matches,home_team,Sunrisers Hyderabad,37
+matches,home_team,Lucknow Super Giants,37
+matches,home_team,Kolkata Knight Riders,37
+matches,home_team,Rajasthan Royals,37
+matches,home_team,Chennai Super Kings,36
+matches,home_team,Delhi Capitals,36
+matches,home_team,Mumbai Indians,35
+matches,home_team,Sri Lanka,35
+matches,home_team,England,31
+matches,home_team,Ireland,29
+matches,home_team,Australia,27
+matches,home_team,Afghanistan,22
+matches,home_team,South Africa,18
+matches,home_team,United Arab Emirates,17
+matches,home_team,Netherlands,9
+matches,home_team,Sri Lanka A,8
+matches,home_team,India A,7
+matches,home_team,Bangladesh A,6
+matches,home_team,Pakistan A,5
+matches,home_team,Scotland,4
+matches,home_team,Nepal,3
+matches,home_team,Singapore,2
+matches,home_team,Canada,2
+matches,home_team,Afghanistan A,2
+matches,home_team,Kuwait,1
+matches,home_team,Hong Kong,1
+matches,home_team,Japan,1
+matches,away_team,India,58
+matches,away_team,Pakistan,53
+matches,away_team,England,42
+matches,away_team,West Indies,42
+matches,away_team,New Zealand,41
+matches,away_team,Rajasthan Royals,40
+matches,away_team,South Africa,40
+matches,away_team,Mumbai Indians,39
+matches,away_team,Royal Challengers Bengaluru,39
+matches,away_team,Gujarat Titans,38
+matches,away_team,Sri Lanka,37
+matches,away_team,Punjab Kings,37
+matches,away_team,Sunrisers Hyderabad,37
+matches,away_team,Chennai Super Kings,36
+matches,away_team,Bangladesh,36
+matches,away_team,Kolkata Knight Riders,35
+matches,away_team,Lucknow Super Giants,35
+matches,away_team,Delhi Capitals,35
+matches,away_team,Australia,34
+matches,away_team,Afghanistan,31
+matches,away_team,Ireland,22
+matches,away_team,Zimbabwe,15
+matches,away_team,Hong Kong,13
+matches,away_team,United Arab Emirates,9
+matches,away_team,Oman,9
+matches,away_team,Afghanistan A,6
+matches,away_team,Netherlands,4
+matches,away_team,United States Of America,4
+matches,away_team,Pakistan A,4
+matches,away_team,Scotland,3
+matches,away_team,Kuwait,2
+matches,away_team,Canada,2
+matches,away_team,Bangladesh A,2
+matches,away_team,Singapore,1
+matches,away_team,India A,1
+matches,away_team,Sri Lanka A,1
+matches,toss_opted,Fielding,639
+matches,toss_opted,Batting,229
+matches,toss_opted,<NULL>,15
+playing_eleven,is_played,True,19714
+playing_eleven,is_played,False,8667
+playing_eleven,is_captain,False,18031
+playing_eleven,is_captain,<NULL>,8667
+playing_eleven,is_captain,True,1683
+playing_eleven,is_wk,False,18039
+playing_eleven,is_wk,<NULL>,8667
+playing_eleven,is_wk,True,1675
+player_mapping,team_name,India,551
+player_mapping,team_name,West Indies,415
+player_mapping,team_name,Bangladesh,415
+player_mapping,team_name,New Zealand,400
+player_mapping,team_name,Pakistan,387
+player_mapping,team_name,Sri Lanka,374
+player_mapping,team_name,Afghanistan,330
+player_mapping,team_name,England,308
+player_mapping,team_name,Australia,307
+player_mapping,team_name,South Africa,302
+player_mapping,team_name,Zimbabwe,286
+player_mapping,team_name,Ireland,279
+player_mapping,team_name,United Arab Emirates,188
+player_mapping,team_name,Mumbai Indians,141
+player_mapping,team_name,Chennai Super Kings,138
+player_mapping,team_name,Gujarat Titans,132
+player_mapping,team_name,Delhi Capitals,131
+player_mapping,team_name,Kolkata Knight Riders,131
+player_mapping,team_name,Lucknow Super Giants,129
+player_mapping,team_name,Royal Challengers Bengaluru,128
+player_mapping,team_name,Sunrisers Hyderabad,127
+player_mapping,team_name,Punjab Kings,126
+player_mapping,team_name,Rajasthan Royals,125
+player_mapping,team_name,Hong Kong,97
+player_mapping,team_name,Netherlands,75
+player_mapping,team_name,Oman,59
+player_mapping,team_name,Afghanistan A,39
+player_mapping,team_name,India A,35
+player_mapping,team_name,Nepal,34
+player_mapping,team_name,Scotland,33
+player_mapping,team_name,Pakistan A,33
+player_mapping,team_name,Bangladesh A,33
+player_mapping,team_name,Sri Lanka A,33
+player_mapping,team_name,Singapore,23
+player_mapping,team_name,Canada,19
+player_mapping,team_name,United States Of America,18
+player_mapping,team_name,Kuwait,17
+player_mapping,team_name,Japan,15
+teams,team_name,India,33
+teams,team_name,West Indies,26
+teams,team_name,Bangladesh,26
+teams,team_name,New Zealand,24
+teams,team_name,Sri Lanka,23
+teams,team_name,Pakistan,23
+teams,team_name,England,19
+teams,team_name,Ireland,19
+teams,team_name,Australia,18
+teams,team_name,South Africa,18
+teams,team_name,Afghanistan,17
+teams,team_name,Zimbabwe,16
+teams,team_name,United Arab Emirates,10
+teams,team_name,Chennai Super Kings,5
+teams,team_name,Mumbai Indians,5
+teams,team_name,Rajasthan Royals,5
+teams,team_name,Punjab Kings,5
+teams,team_name,Royal Challengers Bengaluru,5
+teams,team_name,Delhi Capitals,5
+teams,team_name,Kolkata Knight Riders,5
+teams,team_name,Sunrisers Hyderabad,5
+teams,team_name,Gujarat Titans,5
+teams,team_name,Lucknow Super Giants,5
+teams,team_name,Hong Kong,5
+teams,team_name,Netherlands,4
+teams,team_name,Oman,3
+teams,team_name,Scotland,2
+teams,team_name,India A,2
+teams,team_name,Pakistan A,2
+teams,team_name,Bangladesh A,2
+teams,team_name,Sri Lanka A,2
+teams,team_name,Afghanistan A,2
+teams,team_name,Nepal,2
+teams,team_name,Singapore,1
+teams,team_name,Kuwait,1
+teams,team_name,Canada,1
+teams,team_name,United States Of America,1
+teams,team_name,Japan,1
+competitions,match_format,T20I,134
+competitions,match_format,T20,7
+competitions,season,2024,33
+competitions,season,2025,33
+competitions,season,2026,25
+competitions,season,2022,25
+competitions,season,2023,20
+competitions,season,2022/23,3
+competitions,season,2023/24,1
+competitions,season,2024/25,1

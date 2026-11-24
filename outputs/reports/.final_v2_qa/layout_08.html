@@ -1,0 +1,75 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@page { size: A4 landscape; margin: 12mm 14mm 14mm; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin:0; color:#182538; background:#fff; font-family:Arial,Helvetica,sans-serif; font-size:9.3pt; line-height:1.28; }
+.sheet { position:relative; page-break-after:always; break-after:page; min-height:180mm; padding-bottom:9mm; }
+.sheet:last-child { page-break-after:auto; break-after:auto; }
+.running-head { display:flex; justify-content:space-between; color:#52647a; font-size:8pt; font-weight:700; letter-spacing:.5pt; margin:0 0 3mm; }
+.rule { border-top:2px solid #203c63; margin-bottom:5mm; }
+h1 { color:#18365d; font-size:20pt; line-height:1.12; margin:0 0 1.5mm; font-weight:700; }
+.subtitle { color:#53647a; font-size:9.2pt; margin:0 0 5mm; line-height:1.25; }
+h2 { color:#244d78; font-size:11pt; margin:4mm 0 1.5mm; page-break-after:avoid; }
+p { margin:0 0 2.5mm; widows:2; orphans:2; }
+.note { color:#52647a; font-size:8.3pt; margin-top:2.5mm; }
+.small { font-size:7.5pt; line-height:1.2; }
+table { width:100%; border-collapse:collapse; table-layout:fixed; margin:2mm 0 3mm; font-size:8.1pt; }
+th { color:white; background:#203c63; font-weight:700; text-align:left; padding:2.2mm 1.8mm; border:1px solid #d7e0e9; }
+td { padding:1.65mm 1.8mm; border:1px solid #d7e0e9; overflow-wrap:anywhere; vertical-align:top; }
+tbody tr:nth-child(even) { background:#f2f5f8; }
+tr { break-inside:avoid; page-break-inside:avoid; }
+td:nth-child(1):not(:last-child) { font-variant-numeric:tabular-nums; }
+.player-table td:nth-child(1),.player-table td:nth-child(n+3),.player-table th:nth-child(1),.player-table th:nth-child(n+3),.sensitivity-table td:nth-child(n+3),.sensitivity-table th:nth-child(n+3),.spot-table td:nth-child(n+2),.spot-table th:nth-child(n+2) { text-align:right; font-variant-numeric:tabular-nums; }
+.player-table td:nth-child(2) { text-align:left; font-weight:600; }
+.player-table th:nth-child(1),.player-table td:nth-child(1) { width:7%; }
+.player-table th:nth-child(2),.player-table td:nth-child(2) { width:25%; }
+.sensitivity-table th:first-child,.sensitivity-table td:first-child { width:39%; }
+.sensitivity-table th:nth-child(2),.sensitivity-table td:nth-child(2) { width:11%; }
+.spot-table th:first-child,.spot-table td:first-child { width:22%; }
+.compact { font-size:7.7pt; }
+.compact th { padding:1.8mm 1.4mm; }
+.compact td { padding:1.35mm 1.4mm; }
+.sheet:nth-of-type(7) h2 { margin:1.5mm 0 1mm; }
+.sheet:nth-of-type(7) table { margin:1mm 0 1.5mm; font-size:7.1pt; }
+.sheet:nth-of-type(7) table th,.sheet:nth-of-type(7) table td { padding:.8mm 1mm; }
+.sheet:nth-of-type(7) .note { font-size:7.8pt; margin-top:1.2mm; }
+.method { display:grid; grid-template-columns:33mm 1fr; gap:4mm; padding:2.7mm 0; border-bottom:1px solid #dfe5ec; break-inside:avoid; }
+.method b { color:#315c88; font-size:8.4pt; letter-spacing:.35pt; }
+.method p { margin:0; }
+.score-list { margin:0; padding:0 0 0 7mm; }
+.score-list li { margin:0 0 2.5mm; padding-left:1mm; }
+.score-list li::marker { color:#315c88; }
+.score-list .strong { font-weight:700; color:#18365d; }
+.coverage-key { display:flex; gap:12mm; color:#52647a; font-size:9pt; margin:8mm 0 3mm 18mm; }
+.coverage-grid { display:grid; grid-template-columns:18mm 1fr; gap:5mm 4mm; align-items:center; width:94%; margin:0 0 7mm 18mm; }
+.coverage-grid > b { color:#18365d; font-size:12pt; }
+.coverage-count { display:inline-block; width:42%; color:#263e5c; font-size:9pt; font-weight:700; margin-bottom:2mm; }
+.coverage-track { height:7mm; background:#e4eaf1; position:relative; }
+.coverage-track i { position:absolute; left:0; height:2mm; display:block; }
+.coverage-track .scheduled { top:1mm; background:#aebccd; }
+.coverage-track .delivered { bottom:1mm; background:#315c88; }
+.math { background:#f2f5f8; border-left:3px solid #315c88; padding:2.5mm 3mm; font-size:10pt; line-height:1.3; }
+.sheet:nth-of-type(10) .small { font-size:8.2pt; line-height:1.3; }
+.sheet:nth-of-type(10) p { margin-bottom:2mm; }
+.bar-row { display:grid; grid-template-columns:15mm 1fr; gap:4mm; align-items:center; margin:5mm 0; }
+.bar-track { height:10mm; background:#e4eaf1; display:flex; align-items:center; position:relative; }
+.bar-track i { position:absolute; left:0; height:3.2mm; display:block; }
+.bar-track .scheduled { top:1.5mm; background:#aebccd; }
+.bar-track .delivered { bottom:1.5mm; background:#315c88; }
+.legend { display:flex; gap:10mm; color:#52647a; font-size:8pt; margin:2mm 0 5mm 19mm; }
+.legend span { white-space:nowrap; }
+.key { display:inline-block; width:4mm; height:2mm; margin-right:1.5mm; vertical-align:middle; }
+.key.scheduled { background:#aebccd; }.key.delivered { background:#315c88; }
+.answer { display:grid; grid-template-columns:40mm 1fr; gap:5mm; padding:2.4mm 0; border-bottom:1px solid #dfe5ec; break-inside:avoid; }
+.answer b { color:#315c88; }
+.answer p { margin:0; }
+.source { font-size:7.4pt; color:#52647a; margin-top:4mm; overflow-wrap:anywhere; }
+a { color:#315c88; text-decoration:underline; }
+footer { position:absolute; bottom:0; left:0; right:0; border-top:1px solid #cbd5e0; padding-top:2mm; display:flex; justify-content:space-between; font-size:7.2pt; color:#64748b; }
+ body{background:#e8edf3}.sheet{width:1100px;min-height:740px;margin:10px auto;background:white;padding:42px 52px 50px} footer{bottom:20px}</style></head><body><section class="sheet " id="page-8">
+      <header class="running-head"><span>SUPERR SELECTOR · SEASON 2</span><span>ROUND 1 · READINESS AUDIT</span></header>
+      <div class="rule"></div>
+      <h1>7 | SENSITIVITY, UNCERTAINTY & VALIDATION</h1><p class="subtitle">A stable-looking score does not imply stable rank ordering</p>
+      <main><table class="compact sensitivity-table"><thead><tr><th>Scenario</th><th>Role</th><th>Top-10 overlap</th><th>Spearman rho (Greek letter ρ)</th><th>Eligible base</th><th>Eligible alt.</th></tr></thead><tbody><tr><td>margin_at_least_2</td><td>batter</td><td>2</td><td>0.85</td><td>126</td><td>65</td></tr><tr><td>margin_at_least_2</td><td>bowler</td><td>4</td><td>0.74</td><td>99</td><td>43</td></tr><tr><td>valid_state_top_quartile_margin_3.100</td><td>batter</td><td>2</td><td>0.83</td><td>126</td><td>49</td></tr><tr><td>valid_state_top_quartile_margin_3.100</td><td>bowler</td><td>3</td><td>0.68</td><td>99</td><td>38</td></tr><tr><td>other_extras_treated_illegal</td><td>batter</td><td>9</td><td>0.99</td><td>126</td><td>129</td></tr><tr><td>other_extras_treated_illegal</td><td>bowler</td><td>8</td><td>0.98</td><td>99</td><td>108</td></tr><tr><td>scoring_first_weights</td><td>batter</td><td>8</td><td>0.99</td><td>126</td><td>126</td></tr><tr><td>wicket_first_weights</td><td>bowler</td><td>8</td><td>0.97</td><td>99</td><td>99</td></tr></tbody></table><p>Pressure-threshold sensitivity is material: margin ≥2 retains 2/10 batters and 4/10 bowlers; upper-quartile margin retains 2/10 and 3/10.</p><p>Reliability checks: six source hashes unchanged; IPL primary pressure rows are IPL-only, valid chase states, second innings, pre-outcome, and exclude revised/DLS and Super Over matches; direct top-10 recomputation matches both saved rank orders; non-DLS run-win score margins reconcile 399/399.</p><p class="note">This is a sensitivity audit, not out-of-time validation or proof that pressure skill persists. No confidence intervals or predictive reliability gate were part of the original score implementation.</p></main>
+      <footer><span>Cricket Pressure Performance Analytics · Rajasthan Royals</span><span>PAGE 8 OF 11</span></footer>
+    </section></body></html>

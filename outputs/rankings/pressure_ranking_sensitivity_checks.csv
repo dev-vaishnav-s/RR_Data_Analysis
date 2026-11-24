@@ -1,0 +1,9 @@
+﻿scenario,role,top10_overlap,spearman_rank_correlation,eligible_primary,eligible_scenario
+margin_at_least_2,batter,2,0.8527972027972027,126,65
+margin_at_least_2,bowler,4,0.7417698580489278,99,43
+valid_state_top_quartile_margin_3.100,batter,2,0.8320408163265306,126,49
+valid_state_top_quartile_margin_3.100,bowler,3,0.6833351570193675,99,38
+other_extras_treated_illegal,batter,9,0.9878815148106487,126,129
+other_extras_treated_illegal,bowler,8,0.9801484230055658,99,108
+scoring_first_weights,batter,8,0.9924949381327335,126,126
+wicket_first_weights,bowler,8,0.9660358688930116,99,99

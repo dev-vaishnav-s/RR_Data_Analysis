@@ -1,0 +1,34 @@
+﻿table,column,dtype,unique_including_null,null_count,category_values_if_le_60
+ball_by_ball,striker_name,str,885,0,high-cardinality; inspect source schema
+ball_by_ball,non_striker_name,str,864,0,high-cardinality; inspect source schema
+ball_by_ball,bowler_name,str,646,0,high-cardinality; inspect source schema
+ball_by_ball,batting_type,str,2,0,RHB | LHB
+ball_by_ball,bowling_type,str,12,0,Right-arm Leg-Break | Right-arm medium-fast | Right-arm Fast | Right-arm medium | Slow left-arm orthodox | Right-arm offbreak | Right-arm fast-medium | Left-arm medium-fast | Left-arm fast-medium | Left-arm medium | Left-arm Chinaman | Left-arm Fast
+ball_by_ball,is_four,bool,2,0,False | True
+ball_by_ball,is_six,bool,2,0,False | True
+ball_by_ball,is_wicket,bool,2,0,False | True
+ball_by_ball,dismissal_type,str,10,190118,<NULL> | Caught | Bowled | LBW | RunOut | Stump | Hit Wicket | Retire Out | Obstracting the field | Obstructing the field
+ball_by_ball,extras_type,str,7,189167,<NULL> | wide | legbyes | Overstep | byes | other | Penalty
+ball_by_ball,pace_or_spin,str,2,0,Pace | Spin
+ball_by_ball,stroke,str,31,6158,Pull shot | Cover Drive | Worked | Flick | Off Drive | Square Cut | On drive | Square drive | Frontfoot defensive | Push | Backfoot defensive | <NULL> | Slog | Steer | Straight Drive | Slog Sweep | Sweep Shot | Leg Glance | Paddle Scoop | Reverse Sweep | UpperCut | PickUp | Inside out | Late Cut | Hook Shot | Paddle Sweep | Reverse Paddle Scoop | Switch | Defense | Glance | Intentional Padding
+ball_by_ball,delivery_style,str,35,391,Seamed In | Orthodox | Leg Break | Off Cutter | Off Break | Seamed Out | Inswing | Out Swing | Googly | Straight | Full Toss | Bouncer | Carrom | Arm ball | Yorker | Slow Bouncer | Reverse Swing In | Angled Away | Chinaman | Angled In | Leg Cut | Back of Hand | Reverse Swing Out | Wide Yorker | Knuckle | Flipper | Slow Ball | Slider | <NULL> | Quicker Ball | Flick | Beamer | Top Spin | Doosra | Reverse Swing
+ball_by_ball,over_or_around,str,3,407,Over | Around | <NULL>
+ball_by_ball,on_or_off,str,2,0,Off-side | On-side
+ball_by_ball,delivery_ist_time,str,200826,0,high-cardinality; inspect source schema
+matches,match_date,str,686,0,high-cardinality; inspect source schema
+matches,stage,str,7,0,League | Others | Final | Qualifier | Super 4 | Eliminator | Semi Final
+matches,venue_country,str,17,0,India | United Arab Emirates | New Zealand | United Kingdom | West Indies | Zimbabwe | Pakistan | Bangladesh | Sri Lanka | Australia | Oman | South Africa | Qatar | Netherlands | Ireland | United States | Japan
+matches,home_team,str,36,0,India | West Indies | New Zealand | Bangladesh | Pakistan | Gujarat Titans | Royal Challengers Bengaluru | Zimbabwe | Punjab Kings | Sunrisers Hyderabad | Lucknow Super Giants | Kolkata Knight Riders | Rajasthan Royals | Chennai Super Kings | Delhi Capitals | Mumbai Indians | Sri Lanka | England | Ireland | Australia | Afghanistan | South Africa | United Arab Emirates | Netherlands | Sri Lanka A | India A | Bangladesh A | Pakistan A | Scotland | Nepal | Singapore | Canada | Afghanistan A | Kuwait | Hong Kong | Japan
+matches,away_team,str,36,0,India | Pakistan | England | West Indies | New Zealand | Rajasthan Royals | South Africa | Mumbai Indians | Royal Challengers Bengaluru | Gujarat Titans | Sri Lanka | Punjab Kings | Sunrisers Hyderabad | Chennai Super Kings | Bangladesh | Kolkata Knight Riders | Lucknow Super Giants | Delhi Capitals | Australia | Afghanistan | Ireland | Zimbabwe | Hong Kong | United Arab Emirates | Oman | Afghanistan A | Netherlands | United States Of America | Pakistan A | Scotland | Kuwait | Canada | Bangladesh A | Singapore | India A | Sri Lanka A
+matches,toss_opted,str,3,15,Fielding | Batting | <NULL>
+matches,result,str,670,0,high-cardinality; inspect source schema
+playing_eleven,is_played,bool,2,0,True | False
+playing_eleven,is_captain,object,3,8667,False | <NULL> | True
+playing_eleven,is_wk,object,3,8667,False | <NULL> | True
+player_mapping,comp_name,str,140,0,high-cardinality; inspect source schema
+player_mapping,team_name,str,38,0,India | West Indies | Bangladesh | New Zealand | Pakistan | Sri Lanka | Afghanistan | England | Australia | South Africa | Zimbabwe | Ireland | United Arab Emirates | Mumbai Indians | Chennai Super Kings | Gujarat Titans | Delhi Capitals | Kolkata Knight Riders | Lucknow Super Giants | Royal Challengers Bengaluru | Sunrisers Hyderabad | Punjab Kings | Rajasthan Royals | Hong Kong | Netherlands | Oman | Afghanistan A | India A | Nepal | Scotland | Pakistan A | Bangladesh A | Sri Lanka A | Singapore | Canada | United States Of America | Kuwait | Japan
+player_mapping,player_name,str,1210,0,high-cardinality; inspect source schema
+teams,team_name,str,38,0,India | West Indies | Bangladesh | New Zealand | Sri Lanka | Pakistan | England | Ireland | Australia | South Africa | Afghanistan | Zimbabwe | United Arab Emirates | Chennai Super Kings | Mumbai Indians | Rajasthan Royals | Punjab Kings | Royal Challengers Bengaluru | Delhi Capitals | Kolkata Knight Riders | Sunrisers Hyderabad | Gujarat Titans | Lucknow Super Giants | Hong Kong | Netherlands | Oman | Scotland | India A | Pakistan A | Bangladesh A | Sri Lanka A | Afghanistan A | Nepal | Singapore | Kuwait | Canada | United States Of America | Japan
+competitions,comp_name,str,141,0,high-cardinality; inspect source schema
+competitions,match_format,str,2,0,T20I | T20
+competitions,season,str,8,0,2024 | 2025 | 2026 | 2022 | 2023 | 2022/23 | 2023/24 | 2024/25
